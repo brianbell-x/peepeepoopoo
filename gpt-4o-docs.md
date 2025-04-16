@@ -1,6 +1,5 @@
 # OpenAI GPT-4o Responses API Documentation
 
-*(...existing content preserved above...)*
 
 ---
 

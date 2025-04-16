@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "modstudio-backend"
+version = "0.1.0"
+description = "Backend for ModStudio.ai image generation"
+authors = ["Your Name <you@example.com>"] # Placeholder - user might want to change this
+readme = "README.md" # Assuming a README will be added later
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0" # Using a recent stable version
+uvicorn = {extras = ["standard"], version = "^0.29.0"} # For running the server
+openai = "^1.16.2" # Latest OpenAI library
+python-multipart = "^0.0.9" # For handling form data (file uploads)
+
+[tool.poetry.dev-dependencies]
+# Add development dependencies like linters/formatters here if needed later
+# e.g., ruff = "^0.3.0", black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
